@@ -12,5 +12,6 @@ remote_theme: "jekyll/minima"
 
 minima:
   skin: classic
+  show_excerpts: true
   nav_pages:
     - now.md
