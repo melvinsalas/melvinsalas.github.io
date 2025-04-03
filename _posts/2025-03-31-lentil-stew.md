@@ -5,7 +5,7 @@ title:  "On how to cook lentil stew"
 
 On Saturday, I suddenly craved a good lentil stew and realized that I had never made one in my life. This filled me with incredible embarrassment because I didn’t know whether it was easy or difficult. What I did know was that I wanted homemade lentils and had plenty of time in case things got complicated.
 
-![ingredients](https://bear-images.sfo2.cdn.digitaloceanspaces.com/melvinsalas/33.webp)
+![ingredients](assets/ingredients.jpeg)
 
 The mission was simple: lentils with chorizo. So, I did the obligatory search on ChatGPT, made my shopping list, and went to the supermarket to buy the missing ingredients from my pantry (without first asking what things I should consider before starting the preparation, big mistake).
 
