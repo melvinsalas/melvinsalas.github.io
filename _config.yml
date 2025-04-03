@@ -1,14 +1,14 @@
-theme: minima
-
-# Site-wide settings
-# ------------------
 title: Octocat's homepage
-
 author:
   name: Melvin Salas
   email: hello@melvinsalas.com
 
-# The `>` after `description:` means to ignore line-breaks until next key. If
-#   you wish to omit the line-break after the end of text, use `>-` instead.
 description: >
   Bookmark this to keep an eye on my project updates!
+
+theme: minima
+
+minima:
+  skin: classic
+  nav_pages:
+    - now.md
