@@ -1,10 +1,11 @@
-title: Octocat's homepage
+title: melvinsalas.com
 author:
   name: Melvin Salas
   email: hello@melvinsalas.com
 
 description: >
-  Bookmark this to keep an eye on my project updates!
+  Just a simple blog about technology, programming, and life.
+  I write about things I learn and share my thoughts on various topics.
 
 # theme: minima
 remote_theme: "jekyll/minima"
