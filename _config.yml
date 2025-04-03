@@ -6,13 +6,3 @@ author:
 description: >
   Just a simple blog about technology, programming, and life.
   I write about things I learn and share my thoughts on various topics.
-
-# theme: minima
-remote_theme: "jekyll/minima"
-
-minima:
-  skin: classic
-  show_excerpts: true
-  nav_pages:
-    - now.md
-    - archive.md
