@@ -15,3 +15,4 @@ minima:
   show_excerpts: true
   nav_pages:
     - now.md
+    - archive.md
