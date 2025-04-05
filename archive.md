@@ -4,7 +4,7 @@ title: "Archive"
 permalink: archive
 ---
 
-show all archive post separate by year and month
+# Blog Archive
 
 {% assign posts_by_year = site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
 {% for year in posts_by_year %}

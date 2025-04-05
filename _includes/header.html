@@ -1,0 +1,12 @@
+<nav>
+    <a href="#">{{ site.title }}</a>
+    <ul>
+        {% for item in site.navigation %}
+        <li>
+            <a href="{{ site.baseurl }}{{ item.url }}" {% if page.url==item.url %}class="active" {% endif %}>
+                {{ item.title }}
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+</nav>

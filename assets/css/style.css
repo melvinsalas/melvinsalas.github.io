@@ -1,0 +1,113 @@
+:root {
+    --nav-background-color: #333333;
+    --nav-color: #ffffff;
+    --nav-color-active: #007acc;
+}
+
+/* General styles */
+body {
+    background-color: #212121;
+    color: rgba(255, 255, 255, 0.87);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Nav */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: var(--nav-background-color);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+nav a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.87);
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    color: rgba(255, 255, 255, 0.5);
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    color: rgba(255, 255, 255, 0.95);
+}
+
+/* Main content */
+main {
+    max-width: 800px;
+    margin: 3rem auto;
+    padding: 0 1.5rem;
+}
+
+main img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+main h2 {
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+main ul {
+    list-style: none;
+    padding: 0;
+}
+
+main li {
+    padding: 0.75rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+main li a {
+    text-decoration: none;
+    color: #4da3ff;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+main li a:hover {
+    color: #82cfff;
+}
+
+main li small {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem 2rem;
+    background-color: #2a2a2a;
+    color: #bbb;
+    font-size: 0.9rem;
+    margin-top: 3rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
