@@ -1,7 +1,17 @@
 :root {
-    --nav-background-color: #333333;
-    --nav-color: #ffffff;
-    --nav-color-active: #007acc;
+    --nav-color: rgba(255, 255, 255, 0.95);
+    --nav-color-dark: rgba(0, 0, 0, 0.95);
+    --nav-color-inactive: rgba(255, 255, 255, 0.5);
+    --nav-color-inactive-dark: rgba(0, 0, 0, 0.5);
+
+    --nav-color-background: #333333;
+
+    --accent-color: rgba(255, 255, 255, 0.5);
+    --accent-yellow: rgb(255, 183, 0);
+    --accent-red: rgb(255, 65, 54);
+    --accent-blue: rgb(53, 126, 221);
+    --accent-green: rgb(25, 169, 116);
+
 }
 
 /* General styles */
@@ -22,7 +32,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background-color: var(--nav-background-color);
+    background-color: var(--nav-color-background);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
@@ -33,10 +43,6 @@ nav a {
     transition: color 0.3s ease;
 }
 
-nav a:hover {
-    color: #ffffff;
-}
-
 nav ul {
     list-style: none;
     display: flex;
@@ -45,20 +51,49 @@ nav ul {
     padding: 0;
 }
 
-nav ul li a {
-    color: rgba(255, 255, 255, 0.5);
+nav a {
+    color: var(--nav-color-inactive);
     transition: color 0.3s ease;
 }
 
-nav ul li a:hover,
-nav ul li a.active {
-    color: rgba(255, 255, 255, 0.95);
+nav a:hover,
+nav a.active {
+    color: var(--nav-color);
+}
+
+/* Header */
+header {
+    background-color: var(--accent-color);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+}
+
+header .header-content {
+    max-width: 768px;
+    display: inline-block;
+}
+
+header img {
+    max-width: 100%;
+    max-height: 266px;
+    width: auto;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header h1 {
+    padding: 1rem 0;
+    margin-block: 0;
 }
 
 /* Main content */
 main {
-    max-width: 800px;
-    margin: 3rem auto;
+    max-width: 768px;
+    margin: 2rem auto;
     padding: 0 1.5rem;
 }
 
@@ -88,17 +123,61 @@ main li {
 
 main li a {
     text-decoration: none;
-    color: #4da3ff;
+    color: var(--nav-color);
     font-weight: 600;
     transition: color 0.3s ease;
 }
 
-main li a:hover {
-    color: #82cfff;
+
+main a span {
+    color: var(--accent-color);
+}
+
+main .red a span {
+    color: var(--accent-red);
+}
+
+main .yellow a span {
+    color: var(--accent-yellow);
+}
+
+main .blue a span {
+    color: var(--accent-blue);
+}
+
+main .green a span {
+    color: var(--accent-green);
 }
 
 main li small {
     color: rgba(255, 255, 255, 0.5);
+}
+
+main p a {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-color: var(--accent-color);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+}
+
+main p a:hover {
+    opacity: 0.6;
+}
+
+.callout {
+    background-color: #f0f8ff;
+    border-left: 5px solid #007bff;
+    padding: 10px;
+    margin: 10px 0;
+    font-style: italic;
+    color: #333;
+}
+
+.callout-warning {
+    background-color: #fff3cd;
+    border-left: 5px solid #ffc107;
+    color: #856404;
 }
 
 /* Footer */
@@ -110,4 +189,16 @@ footer {
     font-size: 0.9rem;
     margin-top: 3rem;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+footer p a {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-color: var(--accent-color);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+}
+
+footer a:hover {
+    opacity: 0.6;
 }

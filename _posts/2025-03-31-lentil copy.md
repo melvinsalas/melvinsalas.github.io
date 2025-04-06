@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "On how to cook lentil stew"
-custom_css: "red"
+custom_css: "green"
 image: /assets/lentils.png
 ---
 
@@ -16,11 +16,3 @@ The list included the essentials: potatoes, carrots, garlic, onion, bell pepper,
 The preparation was simple: make the sofrito, add the rest, cook for 30 minutes, and correct the seasoning at the end… or so I thought.
 
 After 45 minutes, the lentils were still hard as rocks and nearly dried out. This happened because I didn’t soak them before cooking and added salt during the process, which made the cooking time longer, just over an hour. So my advice is simple: soak the lentils for 2 hours beforehand and add salt at the end. That way, they’ll surely be ready in less than 30 minutes.
-
-
-# Hola, soy un mensaje de advertencia
-
-<div class="callout callout-warning">
-¡Este es un mensaje importante! Aquí puedes poner cualquier tipo de contenido que quieras resaltar.
-<a href="/assets/ingredients.jpeg" class="btn btn-primary">¡Haz clic aquí!</a>
-</div>

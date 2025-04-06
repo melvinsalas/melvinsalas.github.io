@@ -29,14 +29,12 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
+permalink: /blog/:title/
 
 navigation:
-  - title: Home
-    url: /
-  - title: Archive
-    url: /archive
-  - now:
-    title: Now
+  - title: Blog
+    url: /blog
+  - title: Now
     url: /now
 
 # Build settings

@@ -1,3 +1,6 @@
 :root {
-    --nav-background-color: rgb(255, 183, 0);
+    --accent-color: var(--accent-yellow);
+    --nav-color-background: var(--accent-color);
+    --nav-color: var(--nav-color-dark);
+    --nav-color-inactive: var(--nav-color-inactive-dark);
 }

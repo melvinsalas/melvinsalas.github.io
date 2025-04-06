@@ -2,13 +2,6 @@
 layout: home
 ---
 
-I'm a product designer, engineer, photographer, and writer.
+Hi there! 👋
 
-I was most recently co-founder and product designer at Carrot Fertility, a company offering fertility and family forming benefits to industry leaders like Discord, NBA, Netflix, Spotify, Stripe, and Zoom.
-
-Before that I’ve worked as a designer and engineer at other startups, usually beginning at an early stage.
-
-I'm an alumnus of Columbia University and the South Park Commons.
-
-On weekends, I write this blog and newsletter, travel with my wife and kids, run and bike and take photographs.
-
+I’m a Software Dev, passionate about mobile app development, technology news, and minimalist living. I love building, and experimenting with tools like Flutter. Curious to learn more? Check out my [now](now) page!

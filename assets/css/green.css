@@ -1,5 +1,5 @@
 :root {
-    --accent-color: var(--accent-blue);
+    --accent-color: var(--accent-green);
     --nav-color-background: var(--accent-color);
     --nav-color: var(--nav-color-dark);
     --nav-color-inactive: var(--nav-color-inactive-dark);

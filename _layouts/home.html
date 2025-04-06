@@ -2,14 +2,17 @@
 layout: base
 ---
 
-{{ content }}
+<main>
+    {{ content }}
 
-<h2>Últimas publicaciones</h2>
-<ul>
-    {% for post in site.posts %}
-    <li>
-        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-        <small>{{ post.date | date: "%d %b %Y" }}</small>
-    </li>
-    {% endfor %}
-</ul>
+    <h2>Last Posts</h2>
+    <ul>
+        {% for post in site.posts %}
+        <li class="{{post.custom_css}}">
+            <a href="{{ post.url | relative_url }}">{{ post.title }} <span>↗</span></a>
+
+            <small>{{ post.date | date: "%d %b %Y" }}</small>
+        </li>
+        {% endfor %}
+    </ul>
+</main>
